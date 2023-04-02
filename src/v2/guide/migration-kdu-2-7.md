@@ -4,6 +4,8 @@ type: guide
 order: 701
 ---
 
+Kdu 2.7 is the latest minor version of Kdu 2. It provides built-in support for the [Composition API](https://kdu-js.web.app/guide/extras/composition-api-faq.html#composition-api-faq).
+
 Despite Kdu 3 now being the default version, we understand that there are still many users who have to stay on Kdu 2 due to dependency compatibility, browser support requirements, or simply not enough bandwidth to upgrade. In Kdu 2.7, we have backported some of the most important features from Kdu 3 so that Kdu 2 users can benefit from them as well.
 
 ## Backported Features
