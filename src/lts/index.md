@@ -37,7 +37,3 @@ For some teams, the main concern lies in security, compliance, and browser compa
 - If you are shipping your application to customers with SLAs. You *will* want to avoid including EOL software in your stack.
 
 - Browsers sometimes ship changes that break legacy libraries. This is extremely rare, but could happen in theory.
-
-To address these concerns, we have partnered with industry experts to provide **Extended LTS for Kdu 2**. This service will provide a version of Kdu 2 that will continue to receive security and browser compatibility fixes, with SLAs (Service Level Agreements). If you expect to be using Kdu 2 beyond the EOL date of December 31st, 2023, make sure to plan ahead.
-
-[Learn more about Extended LTS for Kdu 2](TODO:link).
