@@ -69,7 +69,7 @@ NPM is the recommended installation method when building large scale application
 
 ``` bash
 # latest stable
-$ npm install kdu
+$ npm install kdu@^2
 ```
 
 ## CLI
