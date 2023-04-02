@@ -252,7 +252,7 @@ order: 801
       'kdujs/*'
     ],
     links: [
-      'https://paypal.me/nkduydev/'
+      'https://www.patreon.com/nkduy_dev'
     ]
   }]
 
