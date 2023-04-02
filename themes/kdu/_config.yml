@@ -1,7 +1,7 @@
 site_description: Kdu.js - The Kdu Framework
 google_analytics: 
 root_domain: kdu-js.web.app
-kdu_version: 2.7.0
+kdu_version: 2.7.14
 redirects:
   '/v2/api/index.html': '/api/'
   '/v2/guide/index.html': '/guide/introduction.html'
