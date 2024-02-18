@@ -2,8 +2,8 @@
 title: Installation
 type: guide
 order: 1
-kdu_version: 2.7.14
-gz_size: "37.54"
+kdu_version: 2.7.16
+gz_size: "37.70"
 ---
 
 ### Compatibility Note
@@ -39,20 +39,20 @@ Simply download and include with a script tag. `Kdu` will be registered as a glo
 For prototyping or learning purposes, you can use the latest version with:
 
 ``` html
-<script src="https://cdn.jsdelivr.net/npm/kdu@2.7.14/dist/kdu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/kdu@2.7.16/dist/kdu.js"></script>
 ```
 
 For production, we recommend linking to a specific version number and build to avoid unexpected breakage from newer versions:
 
 ``` html
-<script src="https://cdn.jsdelivr.net/npm/kdu@2.7.14"></script>
+<script src="https://cdn.jsdelivr.net/npm/kdu@2.7.16"></script>
 ```
 
 If you are using native ES Modules, there is also an ES Modules compatible build:
 
 ``` html
 <script type="module">
-  import Kdu from 'https://cdn.jsdelivr.net/npm/kdu@2.7.14/dist/kdu.esm.browser.js'
+  import Kdu from 'https://cdn.jsdelivr.net/npm/kdu@2.7.16/dist/kdu.esm.browser.js'
 </script>
 ```
 
@@ -80,7 +80,7 @@ Kdu provides an official CLI for quickly scaffolding ambitious Single Page Appli
 
 ## Explanation of Different Builds
 
-In the [`dist/` directory of the NPM package](https://cdn.jsdelivr.net/npm/kdu@2.7.14/dist/) you will find many different builds of Kdu.js. Here's an overview of the difference between them:
+In the [`dist/` directory of the NPM package](https://cdn.jsdelivr.net/npm/kdu@2.7.16/dist/) you will find many different builds of Kdu.js. Here's an overview of the difference between them:
 
 | | UMD | CommonJS | ES Module (for bundlers) | ES Module (for browsers) |
 | --- | --- | --- | --- | --- |
@@ -97,7 +97,7 @@ In the [`dist/` directory of the NPM package](https://cdn.jsdelivr.net/npm/kdu@2
 
 - **Runtime**: code that is responsible for creating Kdu instances, rendering and patching virtual DOM, etc. Basically everything minus the compiler.
 
-- **[UMD](https://github.com/umdjs/umd)**: UMD builds can be used directly in the browser via a `<script>` tag. The default file from jsDelivr CDN at [https://cdn.jsdelivr.net/npm/kdu@2.7.14](https://cdn.jsdelivr.net/npm/kdu@2.7.14) is the Runtime + Compiler UMD build (`kdu.js`).
+- **[UMD](https://github.com/umdjs/umd)**: UMD builds can be used directly in the browser via a `<script>` tag. The default file from jsDelivr CDN at [https://cdn.jsdelivr.net/npm/kdu@2.7.16](https://cdn.jsdelivr.net/npm/kdu@2.7.16) is the Runtime + Compiler UMD build (`kdu.js`).
 
 - **[CommonJS](http://wiki.commonjs.org/wiki/Modules/1.1)**: CommonJS builds are intended for use with older bundlers like [browserify](http://browserify.org/) or [webpack 1](https://webpack.github.io). The default file for these bundlers (`pkg.main`) is the Runtime only CommonJS build (`kdu.runtime.common.js`).
 
